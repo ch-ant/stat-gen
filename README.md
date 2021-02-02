@@ -1,7 +1,7 @@
 ## Power Consumption Statistics Generator
 
 
-##### SUMMARY
+#### SUMMARY
 
 The central idea is that a software system an analyst can use to
 draw conclusions about energy consumption over time has to be built. An
@@ -16,7 +16,7 @@ for 3 years, sampled every second.
 
 
 
-##### CONTENTS
+#### CONTENTS
 
 * src: the source code
 * uml: UML diagrams of each class separately as well as for the whole program
@@ -24,39 +24,39 @@ for 3 years, sampled every second.
 
 
 
-##### HOW TO USE
+#### HOW TO USE
 
 (1) Clone the repo into an eclipse workspace folder.\
 (2) In eclipse, create a new java project with the same name as the above folder (!)\
-(3) Eclipse should be able to put everything together on it's own that way (except for tests)\
+(3) Eclipse should be able to put everything together on it's own that way (except for tests)
 
 
 Alternatively the program can run on any terminal as long as Java 14 or 15 is installed in the system:\
 (1) Navigate to the src folder (in the terminal)\
 (2) Compile: javac client/*.java\
-(3) And run: java client.MainUI\
+(3) And run: java client.MainUI
 
 
 
-##### NOTES ABOUT FILE LOAD:
+#### NOTES ABOUT FILE LOAD:
 
 Input file examples can be found in the resources folder\
 When asked for input file path, an absolute file path is required (e.g. E:\folder\text.txt)\
 Acceptable file types are: .txt and .tsv\
 File type extension must be included\
 Acceptable delimeters are: ;, tab, space)\
-Expected number of columns for each line: 9\
+Expected number of columns for each line: 9
 
 
 
-##### NOTE ABOUT REPORT CREATION: 
+#### NOTE ABOUT REPORT CREATION: 
 
 When asked for a directory, an absolute directory path is required (e.g. E:\folder)\
 And afterwards, a file name alone is required (file extension is not required) (e.g. MyFile)
 
 
 
-##### ABOUT TESTS:
+#### ABOUT TESTS:
 
 (1) In order for tests to run successfully JUnit 4 or JUnit 5 must be imported into the eclipse project\
 (2) File paths in the classes of the test package must be updated to match that of TestInput folder location in the specific system
