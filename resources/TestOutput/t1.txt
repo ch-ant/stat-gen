@@ -1,0 +1,19 @@
+=====  Season sum aggregation  =====
+sum consumption over (a) Kitchen, (b) Laundry, (c) A/C
+Description: hehe
+
+Kitchen----------
+* SPRING    0.0
+* AUTUMN    0.0
+* WINTER    0.0
+* SUMMER    0.0
+Laundry----------
+* SPRING    0.0
+* AUTUMN    0.0
+* WINTER    426.0
+* SUMMER    0.0
+A/C----------
+* SPRING    0.0
+* AUTUMN    0.0
+* WINTER    1669.0
+* SUMMER    0.0
