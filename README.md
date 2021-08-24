@@ -12,7 +12,7 @@ analyst would like to know the answers to questions such as:\
 week, etc.\
 The data come from a [Kaggle data set on electricity consumption](https://www.kaggle.com/uciml/electric-power-consumption-data-set) of a house
 for 3 years, sampled every second.
-
+<br><br>
 
 
 #### CONTENTS
@@ -20,7 +20,7 @@ for 3 years, sampled every second.
 * src: the source code
 * uml: UML diagrams of each class separately as well as for the whole program
 * resources: data input examples and program output examples
-
+<br><br>
 
 
 #### HOW TO USE
@@ -28,13 +28,13 @@ for 3 years, sampled every second.
 `(1)` Clone the repo into an eclipse workspace folder.\
 `(2)` In eclipse, create a new java project with the same name as the above folder (!)\
 `(3)` Eclipse should be able to put everything together on it's own that way (except for tests)
-
+<br><br>
 
 Alternatively the program can run on any terminal as long as Java 14 or 15 is installed in the system:\
 `(1)` Navigate to the src folder (in the terminal)\
 `(2)` Compile: javac client/*.java\
 `(3)` And run: java client.MainUI
-
+<br><br>
 
 
 #### NOTES ABOUT FILE LOAD:
@@ -45,14 +45,14 @@ Acceptable file types are: .txt and .tsv\
 File type extension must be included\
 Acceptable delimeters are: ;, tab, space)\
 Expected number of columns for each line: 9
-
+<br><br>
 
 
 #### NOTE ABOUT REPORT CREATION: 
 
 When asked for a directory, an absolute directory path is required (e.g. E:\folder)\
 And afterwards, a file name alone is required (file extension is not required) (e.g. MyFile)
-
+<br><br>
 
 
 #### ABOUT TESTS:
